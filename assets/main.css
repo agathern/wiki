@@ -1,0 +1,49 @@
+
+body {
+	background-image: url('background.png');
+	background-repeat: repeat-y;
+	background-position: center;
+	background-size: auto;
+	background-color: #CCC1AA;}
+h1{
+	font-family: 'Reenie Beanie', cursive;
+	text-align: center;
+	font-size: 70px;
+	top: 100px;
+	position: relative;
+}
+
+h2{
+	font-family: 'Reenie Beanie', cursive;
+	font-size: 40px;
+
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 80px;
+  border-left-width: 90px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img{
+	float: none;
+width: 430px;
+transform: rotate(7.86deg)
+}
